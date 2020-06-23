@@ -1,10 +1,8 @@
-import React from "react"
-import "../styles/Header.css"
+import React from "react";
+import "../styles/Header.css";
 
 function Header() {
-	return (
-		<h1 className="header effect3">note-it</h1>
-	)
+	return <h1 className="header">note-it</h1>;
 }
 
-export default Header
+export default Header;

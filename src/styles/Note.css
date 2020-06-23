@@ -43,18 +43,19 @@ textarea {
 	display: flex;
 	justify-content: flex-end;
 	cursor: pointer;
-	margin-top: .5em;
+	margin-top: 0.5em;
 }
-.save, .delete {
-	font-size: .85rem;
-	padding: .25em .75em;
+.save,
+.delete {
+	font-size: 0.85rem;
+	padding: 0.25em 0.75em;
 	background-color: rgba(0, 0, 0, 0.1);
-	margin-left: .5em;
+	margin-left: 0.5em;
 }
-.save:hover, .delete:hover{
+.save:hover,
+.delete:hover {
 	transform: scale(1.1);
 }
-
 
 /* note styles */
 .note {
@@ -64,8 +65,7 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	/* box-shadow: 0 10px 6px -6px #777; */
-	box-shadow: 5px 5px  rgba(0, 0, 0, 0.25);
-
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
 .note-title,
 .note-text {
@@ -78,7 +78,7 @@ textarea {
 	white-space: nowrap;
 }
 .note-text {
-	font-size: .85rem;
+	font-size: 0.85rem;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 5;

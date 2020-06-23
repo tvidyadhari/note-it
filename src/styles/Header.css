@@ -1,23 +1,22 @@
 .header {
 	font-size: 2rem;
-	padding: .5em 2em;
+	padding: 0.5em 2em;
 	background-color: lightgoldenrodyellow;
 	position: relative;
 	font-family: monospace;
-	margin: .5em;
+	margin: 0.5em;
 }
 
-.header:before
-{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  box-shadow: 0 15px 10px #777;
-  transform: rotate(-3deg);
+.header:before {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%;
+	top: 80%;
+	max-width: 300px;
+	background: #777;
+	box-shadow: 0 15px 10px #777;
+	transform: rotate(-3deg);
 }
