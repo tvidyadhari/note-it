@@ -1,0 +1,85 @@
+/* modal styles */
+.modal {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+	padding: 0.85em 0.75em;
+}
+@media (min-width: 500px) {
+	.modal-content {
+		width: 25em;
+	}
+}
+
+.modal-header {
+	position: absolute;
+	right: 1%;
+	top: -1%;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	height: 15em;
+}
+textarea {
+	flex: 1;
+}
+.modal-footer {
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+	margin-top: .5em;
+}
+.save, .delete {
+	font-size: .85rem;
+	padding: .25em .75em;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-left: .5em;
+}
+.save:hover, .delete:hover{
+	transform: scale(1.1);
+}
+
+
+/* note styles */
+.note {
+	height: 10em;
+	cursor: pointer;
+	padding: 0.25em;
+	display: flex;
+	flex-direction: column;
+	/* box-shadow: 0 10px 6px -6px #777; */
+	box-shadow: 5px 5px  rgba(0, 0, 0, 0.25);
+
+}
+.note-title,
+.note-text {
+	margin: 0.5em 0.75em 0.1em 0.75em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.note-title {
+	font-size: 1.1rem;
+	white-space: nowrap;
+}
+.note-text {
+	font-size: .85rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+}

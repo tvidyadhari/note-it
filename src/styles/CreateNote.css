@@ -1,0 +1,10 @@
+.create-note {
+	background-color: var(--clr-accent);
+	padding: 1em 2em;
+	font-weight: 500;
+	cursor: pointer;
+	margin: 1.25em 0;
+}
+.create-note:hover {
+	transform: scale(1.1);
+}

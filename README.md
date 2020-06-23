@@ -1,3 +1,11 @@
+# note-it
+<hr>
+It's basically post-it notes.
+TODOS:
+- add search highlight
+- ability to restore deleted notes
+- refactor using hooks and context API
+<hr>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
