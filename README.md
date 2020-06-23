@@ -1,6 +1,9 @@
 # note-it
+
 It's basically post-it notes.
-check it out: 
+
+check it out: https://tvidyadhari.github.io/note-it/
+
 #### TODOS:
 - add search highlight
 - ability to restore deleted notes
